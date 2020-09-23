@@ -24,6 +24,7 @@ Pod::Spec.new do |spec|
   end
 
   spec.subspec 'SeparatedCustomViewController' do |sp|
+    sp.dependency 'KrotoffMediumProject'
     sp.source_files = '*/SeparatedCustomViewController.swift'
   end
 end
