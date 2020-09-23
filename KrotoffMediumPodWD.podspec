@@ -20,6 +20,10 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = '11.0'
 
   spec.subspec 'CustomView' do |sp|
-    sp.dependency = 'KrotoffMediumProject'
+    sp.dependency 'KrotoffMediumProject'
+  end
+
+  spec.subspec 'SeparatedCustomViewController' do |sp|
+    sp.source_files = '*/SeparatedCustomViewController.swift'
   end
 end

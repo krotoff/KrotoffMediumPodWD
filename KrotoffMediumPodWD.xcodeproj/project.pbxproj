@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		14BAB73718AE8392C8484C22 /* Pods_KrotoffMediumPodWD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEDD1957936255FEB1F9A812 /* Pods_KrotoffMediumPodWD.framework */; };
+		AE8E32FE251B99400006D9E2 /* SeparatedCustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8E32FD251B99400006D9E2 /* SeparatedCustomViewController.swift */; };
 		AEF59F67251B898B00C81A1E /* KrotoffMediumPodWD.h in Headers */ = {isa = PBXBuildFile; fileRef = AEF59F65251B898B00C81A1E /* KrotoffMediumPodWD.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEF59F6E251B930200C81A1E /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF59F6D251B930200C81A1E /* CustomViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6ADF72290DE09D5613BF0EFE /* Pods-KrotoffMediumPodWD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KrotoffMediumPodWD.debug.xcconfig"; path = "Target Support Files/Pods-KrotoffMediumPodWD/Pods-KrotoffMediumPodWD.debug.xcconfig"; sourceTree = "<group>"; };
+		AE8E32FD251B99400006D9E2 /* SeparatedCustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparatedCustomViewController.swift; sourceTree = "<group>"; };
 		AEF59F62251B898B00C81A1E /* KrotoffMediumPodWD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KrotoffMediumPodWD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEF59F65251B898B00C81A1E /* KrotoffMediumPodWD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KrotoffMediumPodWD.h; sourceTree = "<group>"; };
 		AEF59F66251B898B00C81A1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				AEF59F65251B898B00C81A1E /* KrotoffMediumPodWD.h */,
 				AEF59F66251B898B00C81A1E /* Info.plist */,
 				AEF59F6D251B930200C81A1E /* CustomViewController.swift */,
+				AE8E32FD251B99400006D9E2 /* SeparatedCustomViewController.swift */,
 			);
 			path = KrotoffMediumPodWD;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEF59F6E251B930200C81A1E /* CustomViewController.swift in Sources */,
+				AE8E32FE251B99400006D9E2 /* SeparatedCustomViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
