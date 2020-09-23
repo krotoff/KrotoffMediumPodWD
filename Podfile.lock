@@ -1,0 +1,16 @@
+PODS:
+  - KrotoffMediumProject (0.1.0)
+
+DEPENDENCIES:
+  - KrotoffMediumProject
+
+SPEC REPOS:
+  trunk:
+    - KrotoffMediumProject
+
+SPEC CHECKSUMS:
+  KrotoffMediumProject: b375eaf14a2bcb13151d0c033700ba502a3d011d
+
+PODFILE CHECKSUM: baef207ba8b7ea217749cf6fcd56b2237f921b1c
+
+COCOAPODS: 1.10.0.rc.1

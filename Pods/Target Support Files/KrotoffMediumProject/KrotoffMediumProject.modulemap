@@ -1,0 +1,6 @@
+framework module KrotoffMediumProject {
+  umbrella header "KrotoffMediumProject-umbrella.h"
+
+  export *
+  module * { export * }
+}
